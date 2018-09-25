@@ -1,14 +1,13 @@
 \section{Hydrostatik}
 	
 	\subsection{Druck}										%Druck
-	\begin{table}[h!]
-
+%	\begin{table}[h!]
 	\begin{tabular}{ | m{6cm} | m{6cm} | m{6cm} | }
 	\hline
 	Abbildung & Formeln & Einheiten \\ \hline
-	\midrule
+	\hline
 	\begin{minipage}{.1\textwidth}
-	\includegraphics[width=5cm]{Figures/Druck.png}
+	\tabImg[width=5cm]{images/Druck.png}
 	\end{minipage}
 	&
 	%\begin{minipage}[t]{5cm}
@@ -28,27 +27,26 @@
 	%\end{minipage}
 	\\ \hline
 	\end{tabular}
-	\end{table}
+%	\end{table}
 
 	\subsection{Schweredruck}							%Schweredruck
-	\begin{table}[h!]
-
+%	\begin{table}[h!]
 	\begin{tabular}{ | m{6cm} | m{6cm} | m{6cm} | }
 	\hline
 	Abbildungen & Formeln & Einheiten \\ \hline
-	\midrule
+	\hline
 	\begin{minipage}{.3\textwidth}
-	\includegraphics[width=4cm]{Figures/Schweredruck1.png}\\
-	\includegraphics[width=4cm]{Figures/Schweredruck2.png}\\
+	\tabImg[width=4cm]{images/Schweredruck1.png}\\
+	\tabImg[width=4cm]{images/Schweredruck2.png}\\
 	\end{minipage}
 	&
 	%\begin{minipage}[t]{5cm}
 	\begin{itemize}
-	\item $p_{(h)}=p_{0}+\rho*g*h$
+	\item $p_{(h)}=p_{0}+\rho\cdot g\cdot h$
 	\item {\color{red}Wenn der Überdruck gefragt ist, dann ist ohne den Umgebungsdruck zu rechnen, also:}
-	\item $p_{(h)}=\rho*g*h$
+	\item $p_{(h)}=\rho\cdot g\cdot h$
 	\item Kraft auf eine Fläche (z.B. Fenster ) in der Tiefe: 
-	\item $F=p*A$
+	\item $F=p\cdot A$
 	\item {\color{red}Als Höhe ist die Mitte der Fläche anzunehmen}
 	\end{itemize}
 	%\end{minipage}
@@ -69,24 +67,24 @@
 	%\end{minipage}
 	\\ \hline
 	\end{tabular}
-	\end{table}
+%	\end{table}
 
 	\subsection{Auftrieb: Prinzip des Archimedes}				%Auftrieb Prinzip des Archimedes
-	\begin{table}[h!]
+%	\begin{table}[h!]
 	\begin{tabular}{ | m{6cm} | m{7cm} | m{5cm} | }
 	\hline
 	Abbildung & Formeln & Einheiten \\ \hline
-	\midrule
+	\hline
 	\begin{minipage}{.3\textwidth}
-	\includegraphics[width=3cm]{Figures/Auftrieb.png}
+	\tabImg[width=3cm]{images/Auftrieb.png}
 	\end{minipage}
 	&
 	%\begin{minipage}[t]{5cm}
 	\begin{itemize}
 	\item $F_{G}=Gewichtskraft$
-	\item $F_{G}=\rho_{K}*V*g$
+	\item $F_{G}=\rho_{K}\cdot V\cdot g$
 	\item $F_{A}=Auftriebskraft$
-	\item $F_{A}=\rho_{F}*V*g$
+	\item $F_{A}=\rho_{F}\cdot V\cdot g$
 	\item {\color{red}Wenn etwas oben auf schwimmt, herrscht keine Beschleunigung. Dann gilt: $F_{A}=F_{G}$}
 	\item {\color{red}Als \textbf{Tiefgang} wird der Teil des Körpers bezeichnet der im Wasser ist. } 
 	\end{itemize}
@@ -105,24 +103,24 @@
 	%\end{minipage}
 	\\ \hline
 	\end{tabular}
-	\end{table}
+%	\end{table}
 
-\newpage
-\vspace*{-3cm}
+\clearpage
+%\vspace\cdot {-3cm}
 \subsection{Druck und Überdruck}				%Überdruck
-\begin{table}[h!]
+%\begin{table}[h!]
 	\begin{tabular}{ | m{6cm} | m{6cm} | m{6cm} | }
 		\hline
 		Abbildung & Formeln & Einheiten \\ \hline
-		\midrule
+		\hline
 		\begin{minipage}{.3\textwidth}
-			\includegraphics[width=4.5cm]{Figures/Ueberdruck}
+			\tabImg[width=4.5cm]{images/Ueberdruck}
 		\end{minipage}
 		&
 		%\begin{minipage}[t]{5cm}
 		\begin{itemize}
-			\item $F=F_{I}-F_{A}=p*A-p_{0}*A$
-			\item $A*(p-p_{0})=\Delta p*A$
+			\item $F=F_{I}-F_{A}=p\cdot A-p_{0}\cdot A$
+			\item $A\cdot (p-p_{0})=\Delta p\cdot A$
 			
 			\item {\color{red}$\Delta p=$Überdruck} 
 		\end{itemize}
@@ -138,22 +136,22 @@
 		%\end{minipage}
 		\\ \hline
 	\end{tabular}
-\end{table}
+%\end{table}
 
 \subsection{Kompression}				%Kompression
-\begin{table}[h!]
+%\begin{table}[h!]
 	\begin{tabular}{ | m{6cm} | m{6cm} | m{6cm} | }
 		\hline
 		Abbildung & Formeln & Einheiten \\ \hline
-		\midrule
+		\hline
 		\begin{minipage}{.3\textwidth}
-			\includegraphics[width=4.5cm]{Figures/Kompression}
+			\tabImg[width=4.5cm]{images/Kompression}
 		\end{minipage}
 		&
 		%\begin{minipage}[t]{5cm}
 		\begin{itemize}
-			\item $\frac{\Delta V}{V}=-\kappa * \Delta p$
-			\item $\kappa = -\dfrac{1}{V}*\dfrac{\Delta V}{\Delta p}$
+			\item $\frac{\Delta V}{V}=-\kappa \cdot  \Delta p$
+			\item $\kappa = -\dfrac{1}{V}\cdot \dfrac{\Delta V}{\Delta p}$
 			\item {\color{red}$K=\frac{1}{\kappa}$} 
 			\item {\color{red}$K=$Kompressionsmodul}
 		\end{itemize}
@@ -168,22 +166,22 @@
 		%\end{minipage}
 		\\ \hline
 	\end{tabular}
-\end{table}
+%\end{table}
 
 
 \subsection{Barometrische Höhenformel}				%Barometrische Höhenformel
-\begin{table}[h!]
+%\begin{table}[h!]
 	\begin{tabular}{ | m{6cm} | m{6cm} | m{6cm} | }
 		\hline
 		Abbildung & Formeln & Einheiten \\ \hline
-		\midrule
+		\hline
 		\begin{minipage}{.3\textwidth}
-			\includegraphics[width=4.5cm]{Figures/barometrisch}
+			\tabImg[width=4.5cm]{images/barometrisch}
 		\end{minipage}
 		&
 		%\begin{minipage}[t]{5cm}
 		\begin{itemize}
-			\item $p_{(h)}=p_{0}*e^{-\dfrac{\rho_{0}*g*h}{p_{0}}}$
+			\item $p_{(h)}=p_{0}\cdot e^{-\dfrac{\rho_{0}\cdot g\cdot h}{p_{0}}}$
 		\end{itemize}
 		%\end{minipage}
 		& 
@@ -198,23 +196,22 @@
 		%\end{minipage}
 		\\ \hline
 	\end{tabular}
-\end{table}
-	
+%\end{table}
 	
 \subsection{Oberflächenspannung}				%Oberflächenspannung
-\begin{table}[h!]
+%\begin{table}[h!]
 	\begin{tabular}{ | m{6cm} | m{6cm} | m{6cm} | }
 		\hline
 		Abbildung & Formeln & Einheiten \\ \hline
-		\midrule
+		\hline
 		\begin{minipage}{.3\textwidth}
-			\includegraphics[width=4.5cm]{Figures/oberflaechenspannung}
+			\tabImg[width=4.5cm]{images/oberflaechenspannung}
 		\end{minipage}
 		&
 		%\begin{minipage}[t]{5cm}
 		\begin{itemize}
-			\item $\sigma=\dfrac{\Delta W}{\Delta A}=\dfrac{\Delta W}{\Delta s * b * 2}$
-			\item $\sigma=\dfrac{F}{2*b}$
+			\item $\sigma=\dfrac{\Delta W}{\Delta A}=\dfrac{\Delta W}{\Delta s \cdot  b \cdot  2}$
+			\item $\sigma=\dfrac{F}{2\cdot b}$
 			
 		\end{itemize}
 		%\end{minipage}
@@ -230,10 +227,10 @@
 		%\end{minipage}
 		\\ \hline
 	\end{tabular}
-\end{table}
-
+%\end{table}
+\enlargethispage{3\baselineskip}
 	{\color{red} Ideale Flüssigkeit $\implies$ reibungsfrei und inkompressibel} \\
-	{\color{red}Ideales Gas $\implies$ Gesetz von Boyle-Mariotte $=p*V=constant\implies$ Gilt nur für konstante Temperatur T!} \\
+	{\color{red}Ideales Gas $\implies$ Gesetz von Boyle-Mariotte $=p\cdot V=constant\implies$ Gilt nur für konstante Temperatur T!} \\
 	 Isotherm = Die Temperatur bleibt gleich (bzw. man lässt genug Zeit zum Temmperaturausgleich \\	
 	 Adiabatisch = Ohne Wärmeaustausch mit der Umgebung\\
 	 Barotrop = Die Dichte einer Flüssigkeit ist nur von Druck abhängig		\\

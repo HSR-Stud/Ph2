@@ -1,16 +1,37 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dokumentinformationen %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Physik 2}
+\author{\href{mailto:urs.fischli@hsr.ch}{Urs Fischli}}
+\newcommand{\versioninfo}{$ V1.0 $}
 
+\documentclass[10pt,twoside,a4paper,fleqn]{scrartcl}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Standard Header für 
+% - Makros 
+% - Farben
+% - Mathematische Operatoren
+\include{header/zusammenfassung}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Ergänzungen für Package kommen hier hin:
+%\usepackage{hyperref}
+%\usepackage{booktabs}
+%\usepackage{ulem}
+\usepackage{textcomp}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\author{Urs Fischli}
-
-	\include{header/header}
-\ifoot{Pysik 2}
-\cfoot{\pagemark}
-\ofoot{Urs Fischli}
 \begin{document}
-
-
+    \maketitle
+    \tableofcontents
+    \thispagestyle{empty}
+    \clearpage
+    %%%
 	\input{sections/Hydrostatik}	
- 	\input{sections/Hydrodynamik}
- 	\input{sections/Waermelehre}
-
+    \clearpage
+    \input{sections/Hydrodynamik}
+    \clearpage
+    \input{sections/Waermelehre}
+    %%%
+%    \input{idiotenseite/IdiotenseiteInclude}
 \end{document}
